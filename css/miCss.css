@@ -1,0 +1,393 @@
+html,body { 
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+  text-align: center;
+}
+
+body{
+width:100%;
+padding-top: 50px;
+font-size:14px;
+font-family: 'Questrial', sans-serif;
+}
+
+body{
+	display:table;
+	width:100%;
+}
+@media (max-width: 600px){
+	.div{
+		display: block !important;	/* Cuando el ancho sea inferior a 600px el elemento será un bloque */
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: auto !important;
+		position: static !important;
+		float: none !important;
+	}
+}
+/*DIVS HEADER*/
+
+.clase-general{
+  display: table-row;
+  display: table-row; border: 1px solid #000;
+}
+.tablecell_footer { display: table-cell;  border-top: 10px solid #ff9800;}
+
+
+#contenido-header{
+text-align:center;
+background:#652498;
+width:100%;
+}
+
+#botonera{
+	max-width:900px;
+	margin: 0 auto;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+/*********BODY DIVS**********/
+
+
+.acercaDe{
+background-color: #4CAF50;
+}
+
+.producto{
+	background-color: #1565C0;}
+
+.contactos{
+	background-color: #3F51B5;
+}
+#footer{
+background-color:gray;
+font-size:14px;
+color: white;
+height:10x;
+border-top:solid #2196F3 10px;
+margin-top:20px;
+border-spacing:150px;
+}
+
+#carga_exitosa{
+	width:100%;
+	height:100%;
+	color: white;
+	margin-top:-50px;
+	font-size:14px;
+	background-color: #FF9800;
+	text-align:center;
+
+}
+
+
+
+.seccion{
+	background-color:transparent;
+	max-width:900px;
+	margin: 0 auto;
+	vertical-align:text-top;
+}
+
+.seccion2{
+	background-color:transparent;
+	margin: 0 auto;
+	vertical-align:text-top;
+}
+
+/*Divs productos*/
+.divP {
+	display: inline-block;
+	padding: 25px;
+	text-align:center;
+	min-width:300px;
+	max-width:23%;
+	margin: 0 auto;
+	vertical-align: text-top;
+
+	/*background-color: rgba(255,255,255,0.2);*/
+}
+
+
+.divP2 {
+	background-color:#70bf73;
+	display: inline-block;
+	padding: 25px;
+	text-align:center;
+	min-width:300px;
+	max-width:23%;
+	margin: 0 auto;
+	vertical-align: text-top;
+	border-radius: 16px 16px 16px 16px;
+	-moz-border-radius: 16px 16px 16px 16px;
+	-webkit-border-radius: 16px 16px 16px 16px;
+	margin:10px;
+	-webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+	/*background-color: rgba(255,255,255,0.2);*/
+}
+
+.seccion_producto{
+	background-color:transparent;
+	/*max-width:900px;*/
+	margin: 0 auto;
+}
+
+.seccion_biografia{
+	background-color:transparent;
+	/*max-width:900px;*/
+	margin: 0 auto;
+	text-align:center;
+	background-color: rgba(255,255,255,0.2);
+	-webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+}
+.seccion_productos{
+	background-color:transparent;
+	width:90%;
+	margin: 20px auto;
+	margin-bottom:50px;
+	text-align:center;
+	background-color: rgba(255,255,255,0.2);
+	-webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+}
+.antesdivp{
+	display:inline-block;
+	padding: 25px;
+	text-align:center;
+	min-width:250px;
+	max-width:10%;
+	margin: 0 auto;
+}
+
+.botondiv{
+	vertical-align:text-bottom;
+}
+/*divs contacto*/
+.rectangulo_contacto{
+display: inline-block;
+	width:250px;
+	text-align:center;
+		vertical-align: text-top;
+		margin: 0 auto;
+}
+/*clase formulario*/
+
+/*divs slide*/
+#slide{
+width:100%;
+margin:0px;
+padding:0px;
+}
+#contenido{
+	text-align:center;
+	width:100%; 
+	margin: 0 auto;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.persona {
+	display: inline-block;
+	padding: 25px;
+	text-align:center;
+	width: 250px;
+	margin: 0 auto;
+	vertical-align:text-top;
+	/*background-color: rgba(255,255,255,0.2);*/
+
+}
+
+.persona-izq {
+	position:relative;
+	display: inline-block;
+	padding: 25px;
+	text-align:center;
+	width: 250px;
+	margin: 0 auto;
+	vertical-align:text-top;
+	/*background-color: rgba(255,255,255,0.2);*/
+
+}
+
+.persona-der {
+	position:relative;
+	display: inline-block;
+	padding: 25px;
+	text-align:left;
+	max-width: 550px;
+	margin: 0 auto;
+	min-width:250px;
+	vertical-align:text-top;
+	/*background-color: rgba(255,255,255,0.2);*/
+
+}
+.persona-info {
+	display: inline-block;
+	padding: 25px;
+	border:1px solid white;
+	vertical-align:text-top;
+	text-align:center;
+	width: 250px;
+	margin: 0 auto;
+	height:700px;
+	/*background-color: rgba(255,255,255,0.2);*/
+
+}
+
+.img-centro {
+margin: 0 auto;
+border-radius:50%;
+border: 8px solid #fff;
+}
+
+.color-navbar{
+background-color:#652498;
+border: 0px #fff;
+color: white;
+}
+
+.titulos {
+text-align:center
+}
+
+.homePage{
+	text-align:center;
+	color: white;
+	background-color: #652498 ;
+	border-radius: 15px 15px 0px 0px;
+}
+
+
+.columna {
+	display: inline-block;
+	padding: 25px;
+	text-align:center;
+	width:100%;
+	max-width:220px;
+}
+
+
+
+/*Titulos y fuentes*/
+
+.tituloH1{
+color:white;
+margin: 0px;
+padding:0px;
+background-color: rgba(255,255,255,0.2);
+}
+
+.tituloH2{
+color:#efefef;
+ font-style: italic;
+ margin: 0px 0px 15px 0px;
+ padding:0px;
+ font-size:1.7em;
+ font-weight:bold;
+}
+
+h3{
+	margin:0px;
+	padding:0px;
+	
+	font-size:14px;
+}
+
+p{
+color: #efefef;
+font-size:1.5em;
+}
+
+.letraBlanca {
+ color: white;
+}
+/*Otros*/
+a.ancla{display: block; position: relative; top: -50px; visibility: hidden;}
+
+a.link_2{
+background-color:#009ae1;
+width:100%;
+color:white;
+text-decoration:none;
+font-size:18px;
+padding:5px;
+border-radius:5px;
+border: 1px solid #fff;
+margin: 20px;
+}
+
+/*Botones*/
+
+.boton-masinfo{
+	width:100%;
+	max-width:300px;
+	vertical-align: text-bottom;
+}
+
+.div_boton{
+vertical-align: text-bottom;
+}
+
+/*Listas*/
+ul, li {
+	color:white;
+	font-size: 14px;
+	text-align:left;
+	list-style-type: circle;
+}
+
+
+.h1_negro {
+color:black;
+}
+.H1_gracias {
+color:white;
+font-size:24px;
+}
+
+.h1_footer_blanco{
+color:white;
+font-size:14px;
+}
+
+/*Parrafos*/
+.p1_gris {
+color:#424242;
+font-size:16px;
+}
+
+/*Imagenes*/
+
+.enLinea{
+display: inline-block;
+}
+
+
+/*Contenedores*/
+
+.caja800px{
+width:100%;
+max-width:800px;
+margin: 0px auto;
+}
+
+.form-ventana{
+width:350px;
+margin: 0px auto 25px;
+}
+.izquierda{
+float:left;
+}
+.derecha{
+float:right;}
+
+
+/*textos*/
+label{
+color:white;
+}
