@@ -1,0 +1,40 @@
+/*@media (max-width: 600px){
+	.div{
+		display: block !important;	/* Cuando el ancho sea inferior a 600px el elemento será un bloque */
+	/*	width: 100% !important;
+		max-width: 100% !important;
+		margin: auto !important;
+		position: static !important;
+		float: none !important;
+	}
+}*/
+body{
+	max-width:900px;
+	min-width:150px;
+	background-color:#652498;
+	margin: 0px auto;
+	margin-top:20px;
+	
+}
+
+#miHeader{
+	display:inline-block;
+	width:100%;
+	max-width:900px;
+	background-color:#652498;
+	margin: 0px auto;
+	
+}
+
+#logo {
+	display: block;
+	float:left;
+	width: 200px;
+	text-align: left;
+	}
+	
+#botonera {
+	display: block;
+	float: right;
+	width: 700px;
+}
